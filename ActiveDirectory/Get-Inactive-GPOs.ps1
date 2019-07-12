@@ -1,4 +1,5 @@
-﻿$aOutput = @();
+﻿#Created by :Nash
+$aOutput = @();
 $aDisabledGpos = Get-GPO -All | Where-Object { $_.GpoStatus -eq 'AllSettingsDisabled' };
 foreach ($oGpo in $aDisabledGpos) {
 	$oOutput = New-Object System.Object;
