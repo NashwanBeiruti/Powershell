@@ -1,4 +1,5 @@
-﻿$remove_ous = $false
+﻿#Created by :Nash
+$remove_ous = $false
 
 $ous_to_keep = @('UAP - PEAP TLS','UAP - PEAP TLS Only','Disabled Users');
 
