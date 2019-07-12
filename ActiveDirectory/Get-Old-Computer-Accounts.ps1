@@ -1,4 +1,5 @@
-﻿function findOldADComputers () {
+﻿#Created by :Nash
+function findOldADComputers () {
 	$aOldComputers = @();
 	$aAllAdComputers = Get-ADComputer -Filter * -Properties LastLogonDate,PasswordLastSet | Where { $_.Enabled -eq $true };
 	foreach ($oAdComputer in $aAllAdComputers) { 
