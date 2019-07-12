@@ -1,3 +1,4 @@
+#Created by :Nash
 <#
 .SYNOPSIS
 	This script disjoins a computer from an Active Directory domain, performs a reboot and upon coming back up
