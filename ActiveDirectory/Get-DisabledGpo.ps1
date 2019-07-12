@@ -1,4 +1,5 @@
-﻿#Requires -Version 4 -Module ActiveDirectory
+﻿#Created by :Nash
+#Requires -Version 4 -Module ActiveDirectory
 
 function Get-DisabledGpo
 {
