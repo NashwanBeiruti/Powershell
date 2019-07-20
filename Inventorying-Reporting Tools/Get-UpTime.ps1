@@ -1,4 +1,5 @@
-﻿<#
+﻿#Nash
+<#
 .SYNOPSIS
 	This script gets the total time a computer has been up for.
 .DESCRIPTION
