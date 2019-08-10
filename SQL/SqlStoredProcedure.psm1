@@ -1,3 +1,4 @@
+﻿#Nash
 #requires -Module SQLPS
 
 function Get-SqlStoredProcedure
