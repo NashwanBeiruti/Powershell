@@ -1,4 +1,5 @@
-﻿function Get-SqlInstance {
+﻿#Nash
+function Get-SqlInstance {
 	param (
 		[ValidateScript({ Test-Connection -ComputerName $_ -Quiet -Count 1 })]
 		[Parameter(ValueFromPipeline)]
