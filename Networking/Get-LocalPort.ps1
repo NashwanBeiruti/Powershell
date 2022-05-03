@@ -3,10 +3,7 @@
 .SYNOPSIS
 	This parses the native netstat.exe's output using the command line "netstat -anb" to find
     all of the network ports in use on a local machine and all associated processes and services
-.NOTES
-	Created on: 	2/15/2015
-	Created by: 	Adam Bertram
-	Filename:		Get-LocalPort.ps1
+
 .EXAMPLE
     PS> Get-LocalPort.ps1
 
