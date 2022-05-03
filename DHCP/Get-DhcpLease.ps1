@@ -1,4 +1,4 @@
-﻿-set executionpolicy 
+﻿-set executionpolicy unrestricted
 
 [CmdletBinding(DefaultParameterSetName = 'Default')]
 param (
