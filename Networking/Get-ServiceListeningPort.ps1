@@ -5,7 +5,7 @@ param (
 		Mandatory,
 		ValueFromPipeline,
 		ValueFromPipelineByPropertyName)]
-	[ValidateSet("Tom","Dick","Jane")]
+	[ValidateSet("Tom","Dick","Harry")]
 	[ValidateRange(21,65)]
 	[ValidateScript({Test-Path $_ -PathType 'Container'})] 
 	[ValidateNotNullOrEmpty()]
